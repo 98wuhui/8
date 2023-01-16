@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">	<title>手速测试</title>
+
+    <!--此代码并非自己所做，是按照快手夏虫的视频制作的,制作人QQ2969539743如有侵权 请立即联系-->
+
+    <style>
+
+      *{
+
+        margin:0;
+
+        padding:0;
+
+       }
+
+      h1{
+
+        width:200px;
+
+        height:200px;
+
+        background-color:blue;
+
+        text-align:center;
+
+        line-height:200px;
+
+        color:white;
+
+        border-radius:50%;
+
+        margin:200px auto;
+
+       }
+
+    </style>
+
+  </head>
+
+  <body>
+
+    <h3>打开之后就要开始点击了，一定要快，快点！快点！</h3>
+
+             
+
+	<h1 id="c" onclick="count++">点击</h1>
+
+	<script>
+
+       let count = 0
+
+       setTimeout(()=>{
+
+         //设置提示文字
+
+         alert("时间到了,你一共点击了"+count+"次");
+
+      //设置时间
+
+      },3000)
+
+    </script>  
+
+  </body>
+
+</html>
